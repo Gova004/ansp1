@@ -1,0 +1,7 @@
+---
+- name: Hello World Playbook
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Print Hello World
+      shell: echo "hru"
